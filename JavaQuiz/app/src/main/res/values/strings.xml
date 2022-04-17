@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Java Quiz</string>
+    <string name="welcome_to_java_quiz">Welcome to Java Quiz</string>
+    <string name="start_quiz">Start quiz</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+</resources>

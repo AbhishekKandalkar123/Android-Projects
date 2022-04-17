@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="352dp"
+        android:layout_height="153dp"
+        android:layout_marginTop="152dp"
+        android:background="@drawable/rouded_corner"
+        android:ellipsize="none"
+        android:gravity="center"
+        android:shadowColor="#D0000000"
+        android:shadowRadius="50"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/yes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:shadowColor="#000000"
+        android:shadowRadius="200"
+        android:text="@string/yes"
+        android:textColor="#5382A1"
+        android:textSize="16sp"
+        app:backgroundTint="#00FFFFFF"
+        app:layout_constraintBaseline_toBaselineOf="@+id/no"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:shadowColor="#000000"
+        android:shadowRadius="200"
+        android:text="@string/no"
+        android:textColor="#5382A1"
+        android:textSize="16sp"
+        app:backgroundTint="#005382A1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/question" />
+</androidx.constraintlayout.widget.ConstraintLayout>

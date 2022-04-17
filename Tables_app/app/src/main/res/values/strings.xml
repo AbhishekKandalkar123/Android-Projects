@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Tables</string>
+    <string name="enter_a_number_below_to_get_the_table">Enter a number below to get the table</string>
+    <string name="table">Table</string>
+</resources>
